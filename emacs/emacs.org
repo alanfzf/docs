@@ -1,0 +1,27 @@
+* Emacs cheat sheet!
+
+Useful commands i am learning while using Emacs!
+
+** Not organized yet
+1. "M->" go to the end of the line of the current buffer
+2. "M-<" go to the beginning of the line of the current buffer
+3. "M-;" comment a line of code!
+4. "C-/" undo command i still don't understand how this one really works!
+
+** Selection commands
+"C-space" start selection
+"C-x-space" start rectangle
+
+** Split handling
+1. "C-x-0" close split
+2. "C-x-2" do a vertical split
+3. "C-x-3" do a horizontal split
+4. "C-x-o" move between splits
+
+** Miscellaneous
+1. "C-g" abort keychord?
+2. "M-z-<character>" to delete upto a character
+3. "C-s-<character>" go to character incremental search
+4. "C-x-C-e" evaluate current line
+5. "C-x-b" switch to buffer
+6. "C-x-d" open dired
