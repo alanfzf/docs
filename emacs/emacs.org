@@ -25,3 +25,5 @@ Useful commands i am learning while using Emacs!
 4. "C-x-C-e" evaluate current line
 5. "C-x-b" switch to buffer
 6. "C-x-d" open dired
+7. "C-M-SPC" select matching parent this means: (,[,{,"
+8. "M-^" runs delete-indentation or the equivalent of vim's shift+j
