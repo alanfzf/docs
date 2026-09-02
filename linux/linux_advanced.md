@@ -35,7 +35,7 @@ nmcli device wifi connect SSID_NAME password PASSWORD
 ```bash
 cd /etc/netplan/
 sudo vi 00-installer-config.yaml
-# apply changes 
+# apply changes
 sudo netplan apply
 ```
 
@@ -53,4 +53,12 @@ network:
         - to: default
           via: 192.168.1.1
   version: 2
+```
+
+## Reverse SSH Tunnel for MySQL Access
+
+Opens port 3366 locally and forwards it to port 3306 on the remote host.
+
+```bash
+ssh -N -L 3366:127.0.0.1:3306 host
 ```
