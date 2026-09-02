@@ -27,3 +27,31 @@ Useful commands i am learning while using Emacs!
 6. "C-x-d" open dired
 7. "C-M-SPC" select matching parent this means: (,[,{,"
 8. "M-^" runs delete-indentation or the equivalent of vim's shift+j
+
+* Emacs cheat sheet (Second try)
+
+** Misc commands
+1. Cancel any command actually running on emacs =<C-g>=
+
+** Function movement
+1. Select a whole function =<C-M-h>= code block
+2. Delete content inside of sexp =<C-M-k>=
+3. Move up one level in the sexp =<C-m-u>=
+
+** Rectangle mode
+1. To enable rectangle mode you type =<C-x><SPC>=
+2. To do operations like appending text you do =<C-x> r t=
+3. To uppercase the region you do =<C-x><C-u>=
+4. To number the region you do =<C-x> r N=
+
+** Blank space deletion
+1. =M-\=  delete horizontal spaces/tabs
+2. =C-x C-o=  delete extra blank lines
+3. =M-^=  join the current line with the previous line
+
+** Character replacemenet
+1. =C-M-%= replace a char
+2. =!= to replace all occurences
+
+** Uppercase/Lowercase
+1. =<M-c>= capitalize first letter of next word
