@@ -1,0 +1,28 @@
+* Cheat sheet for org neovim
+The documentation can be found at
+[[https://nvim-orgmode.github.io/][nvim-orgmode.github.io]]
+
+** Miscellaneous commands
+- =<Leader>ois= schedule
+- =<Leader>oid= deadline
+- =<Leader>ona= add note to heading
+
+** Refiling workflow
+1. First we need to capture a thought or something we want to save for
+   later the command is: =<Leader>oc=
+2. Then after we have captured or thought we can move it to the right
+   place with: =<Leader>or=
+
+** Archiving workflow
+1. We can archive a heading with =<Leader>o$=
+
+** Task workflow
+1. We can cycle the states with the keymap =cit=
+2. We can use =<leader>o,= to change the priority of a task
+3. To toggle a checkbox we can use =<C-space>=
+
+** Documentation
+1. Use =<leader>o'= to open a code block in a different buffer to add
+   the specific code associated to it
+2. Use =<leader>oi.= for active and =<leader>oi!= for inactive time
+   stamps
