@@ -1,5 +1,11 @@
 # Generation commands
 
+## Install docker
+
+```bash
+curl -fsSL https://get.docker.com | sh
+```
+
 ## Generate a private and public SSH key
 
 ```bash

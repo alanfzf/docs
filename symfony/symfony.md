@@ -8,4 +8,6 @@ composer require symfony/maker-bundle --dev
 composer require symfony/twig-bundle
 composer require symfony/validator
 composer require symfony/serializer-pack
+composer require symfony/orm-pack
+composer require symfony/security-bundle
 ```
