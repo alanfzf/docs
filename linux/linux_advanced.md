@@ -1,5 +1,11 @@
 # Generation commands
 
+## Format a windows iso from linux
+
+```bash
+sudo dd if=windows11.iso of=/dev/sdb bs=4M status=progress conv=fsync
+```
+
 ## Install docker
 
 ```bash
